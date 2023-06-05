@@ -1,0 +1,26 @@
+⦁	public class Main
+⦁	public static void main(String [] args){
+⦁	String customer_purchase;
+⦁	read customer_purchase;
+⦁	string [] cr=new String[customer_purchase];
+⦁	int n=cr.length;
+⦁	int max;
+⦁	int freq=0;
+⦁	for (int i=0;i<n;i++){
+⦁	int co=0;
+⦁	for(int j=0;j<n;j++){
+⦁	if (n[i]==n[j]){
+⦁	count++;}
+⦁	else{
+System.out.println("No results found");}
+⦁	End if }
+⦁	End for
+⦁	End for
+⦁	if(co>max){
+⦁	max==co;
+⦁	freq=n[i]; 
+⦁	else{
+System.out.println("The customer hasn’t made much purchase of a single item"); }
+⦁	End if
+⦁	System.out.println("The most purchases made are"+freq); }
+}
